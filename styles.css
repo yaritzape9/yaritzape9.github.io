@@ -7,3 +7,61 @@ body{
 .contactinfo{
 	text-align: center;
 }
+.border{
+	border-style:solid;
+	border-width: thick;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.box{
+	border-style: double;
+	font-family: 'Indie Flower', serif;
+    font-size: 48px;
+
+}
+.fancy-font{
+	margin-top: 80px;
+	font-family: 'Indie Flower', serif;
+    font-size: 35px;
+}
+.img-border{
+	border:3px solid #999999;
+}
+.imgcamone{
+	float:right;
+	margin-bottom: 15px;
+	background-image: url('http://imgview.info/download/20150423/camera-backgrounds-2560x1440.jpg');
+}
+.imgcamone:hover{
+	content: url('http://imgview.info/download/20150423/camera-backgrounds-2560x1440.jpg');
+}
+.imgcamtwo{
+	float:left;
+	margin-bottom: 15px;
+	background-image: url('http://www.kokean.com/i/photography-camera-wallpaper-high-quality-resolution.jpg');
+}
+.imgcamtwo:hover{
+	content: url('http://www.kokean.com/i/photography-camera-wallpaper-high-quality-resolution.jpg');
+}
+.imgthree{
+	float:center; 
+	margin-bottom: 15px;
+	background-image: url('https://images6.alphacoders.com/419/419015.jpg');
+}
+.imgthree:hover{
+content: url('https://images6.alphacoders.com/419/419015.jpg');
+}
+#listone{
+	float: right;
+}
+#isttwo{
+	float:left;
+}
+footer{
+	text-align: center;
+}
+#fancyfonttwo{
+	text-align: center;
+	font-family: 'Indie Flower', serif;
+    font-size: 25px;
+}
