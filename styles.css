@@ -5,8 +5,17 @@ body{
 	font-family: 'Dosis', sans-serif;
   font-size: 48px;
 	text-shadow: 4px 4px 4px #aaa;
+	text-align: center;
 }
-
+.codebox{
+	background-color: white;
+	border: solid black;
+	border-radius: 9px;
+	border-width: thin;
+	margin: 25px ;
+	text-align: left;
+	width: 500px;
+}
 footer{
 	text-align: center;
 }

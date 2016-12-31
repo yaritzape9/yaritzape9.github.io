@@ -7,16 +7,52 @@
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 <body>
-	<center><h1 class = "name">Yaritza Perez</h1></center>
+	<h1 class = "name">Yaritza Perez</h1>
 
 
 	<center><p></p></center>
 	<center><img class = "profilepic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk5AAAAJDkyZDExNGJmLTM0ZTItNGZmZS04NjAzLTc2MTk5MDFjYzkwZA.jpg"></center>
+
 	<center>
 		<a href="https://github.com/yaritzape9"><i class="fa fa-github" aria-hidden="true" style="font-size:20px;"></i></a>
 		<a href="mailto:yaritzape9@gmail.com"><i class="fa fa-google" aria-hidden="true" style="font-size:18px";></i></a>
 		<a href ="https://www.linkedin.com/in/yaritzaperez"><i class="fa fa-linkedin" aria-hidden="false" style="font-size:18px";></i></a>
 	</center>
+
+
+<pre class="codebox"><code>
+		<b>Making a sudoku board!</b>
+	def pretty_board(board_string)
+	  string = board_string.chars
+	  board = []
+	  9.times do |index|
+	    board << string.shift(9)
+	  end
+	    board
+
+	  9.times do |row|
+	    if row % 3==  0
+	      puts "+-----+-----+-----+"
+	    end
+	  9.times do |col|
+	    if col == 0
+	      print "|" + board[row][col] +" "
+	    elsif col == 2 || col == 5
+	      print board[row][col]+"|"
+	    elsif col == 8
+	      puts board[row][col]+"|"
+	    else
+	      print board[row][col]+" "
+	    end
+	   end
+	  end
+	 puts "+-----+-----+-----+"
+       end
+
+ pretty_board("1-58-2----9--764-52--4--819-19-
+ 		-73-6762-83-9-----61-5---76---
+		3-43--2-5-16--3-89--")
+</code></pre>
 
 
 </body>
